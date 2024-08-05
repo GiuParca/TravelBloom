@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    color: #ffffff;
+}
+
 nav{
     background-color: #0B1320;
     color: white; 
@@ -42,6 +46,44 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    gap: .5em;
+}
+
+#destinationSearch{
+    height: 25px;
+    width: 200px;
+}
+
+.nav-buttons{
+    padding: 4px;
+}
+
+#main_img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.main-text-content{
+    position: relative;
+    top: 40%;
+    left: 5%;
+    text-shadow: #000000 1px 0 10px;
+}
+
+.fa-brands{
+    position: relative;
+}
+
+.main-title{
+    font-size: 80px;
+    width: 450px;
+}
+
+.main-paragraph{
+    font-size: 20px;
+    width: 600px;
 }
 
