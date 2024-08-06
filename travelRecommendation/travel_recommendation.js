@@ -1,15 +1,15 @@
-function seacrhDestination(){
-    const inputSearch = document.getElementById('destinationSearch').ariaValueMax.toLowerCase();
+function searchDestination(){
+    const inputSearch = document.getElementById('destinationSearch').value.toLowerCase();
     const btnSearch = document.getElementById('btnSearch');
     const btnReset = document.getElementById('btnSearch');
     const destinations = document.getElementById('searchDestination');
     destinations.innerHTML = "";
 
-    fetch('./travel_reccomendation_api.json')
+    fetch('travel_recommendation_api.json')
     .then(response => response.json())
     .then ((data)=> {
-        const city = data.countries.cities.find(place => place.name.toLowerCase() === input);
-        const country = data.countries.find(place => place.name.toLowerCase() === input);
+        const city = data.countries.find(place => place.name.toLowerCase() === inputSearch);
+        const country = data.countries.find(place => place.name.toLowerCase() === inputSearch);
 
         if(city){
             destinations.innerHTML += `<img src="${city.imagesrc}"></img>`

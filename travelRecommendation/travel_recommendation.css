@@ -11,6 +11,7 @@ body{
 nav{
     background-color: #0B1320;
     color: white; 
+    width: 100%;
 }
 
 ul{
@@ -20,7 +21,7 @@ ul{
 }
 
 .logo img{
-    width: 115px;
+    width: 105px;
     height: 60px;
     margin: 10px 90px;
 }
@@ -69,8 +70,8 @@ ul{
 }
 
 #main_img{
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
 }
 
