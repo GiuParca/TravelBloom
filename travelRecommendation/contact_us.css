@@ -29,7 +29,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1em
+    gap: 4em;
 }
 
 .nav-items a{
@@ -82,8 +82,16 @@ ul{
 .main-title{
     font-size: 80px;
     width: 650px;
-    padding: 120px 0px 20px 120px;
+    padding: 180px 0px 20px 120px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.call-to-action{
+    margin-left: 130px;
+    text-shadow: #000000 1px 0 10px;
+    background-color: #0b1320;
+    width: 200px;
+    text-align: center;
 }
 
 .social-icons{
@@ -97,9 +105,6 @@ ul{
     padding: 10px;
     margin-top: 200px;
     z-index: 2;
-}
-
-.social-icons:hover{
     cursor: pointer;
 }
 
@@ -110,9 +115,40 @@ ul{
     width: 40%;
     background-color: #0b1320e6;
     padding: 20px;
-    margin-left: 700px;
+    margin: -185px 0px 30px 700px;
+    font-size: 18px;
 }
 
 .form-input{
     border: 1px solid #ffffff;
+    margin: 5px 0px 15px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#message{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.send-msg{
+    margin-top: 15px;
+    height: 30px;
+    background-color: #0b1320;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.send-msg:hover{
+    background-color: #000000;
 }
