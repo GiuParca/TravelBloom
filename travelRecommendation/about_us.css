@@ -87,25 +87,12 @@ ul{
 }
 
 .main-paragraph{
-    font-size: 20px;
+    font-size: 18px;
     background-color: #0b1320d0;   
     padding: 15px 40px 15px 120px;
     width: 600px;
     line-height: 1.5em;
     text-align: justify;
-}
-
-.book-btn{
-    margin: 30px 0px 0px 120px;
-    background-color: #0b1320e6;
-    color: #ffffff;
-    padding: 13px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.book-btn:hover{
-    background-color: #000000;
 }
 
 .social-icons{
@@ -125,3 +112,22 @@ ul{
     cursor: pointer;
 }
 
+.our-team-container{
+    display: flex;
+    position: relative;
+    padding: 110px;
+    text-shadow: #000000 1px 0 10px;
+}
+
+.main-title-team{
+    font-size: 50px;
+}
+
+.team-members{
+    flex: 25%;
+    font-size: 18px;
+    color:  #0B1320;
+    background-color: #ffffff;
+    padding: 15px 15px 15px 80px;
+    text-shadow: #ffffff 1px 0 10px;
+}
