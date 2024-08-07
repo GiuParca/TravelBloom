@@ -1,173 +1,171 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     color: #ffffff;    
 }
 
-
-:root {
-    --main-bg-color: #0B1320;
-    --main-text-color: #ffffff;
-    --hover-bg-color: #000000;
+nav{
+    background-color: #0B1320;
+    color: white; 
+    width: 100vw
 }
 
-nav {
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color); 
-    width: 100vw;
-}
-
-ul {
+ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
 
-.logo img {
+.logo img{
     width: 105px;
     height: 60px;
     margin: 10px 90px;
 }
 
-.nav-items {
+.nav-items{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 4em;
 }
 
-.nav-items a {
-    color: var(--main-text-color);
+.nav-items a{
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
 }
 
-.nav-items a:hover {
+.nav-items a:hover{
     text-decoration: underline;
 }
 
-
-.search-input {
+.search-input{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
     padding: 10px;
-    gap: 0.5em;
+    gap: .5em;
 }
 
-#destinationSearch {
+#destinationSearch{
     height: 25px;
     width: 200px;
 }
 
+.nav-buttons{
+    padding: 5px 8px;
+    background-color: #0B1320;
+    color: #ffffff; 
+    border: 1px solid #ffffff;
+}
 
-.nav-buttons, .book-btn, .btn-visit {
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color); 
-    border: 1px solid var(--main-text-color);
+.nav-buttons:hover{
+    border: 1px solid #0B1320;
     cursor: pointer;
 }
 
-.nav-buttons:hover, .book-btn:hover, .btn-visit:hover {
-    background-color: var(--hover-bg-color);
-    border-color: var(--main-bg-color);
-}
-
-
-#main_img {
+#main_img{
     position: absolute;
     width: 100vw;
     height: 100vh;
 }
 
-.main-text-content {
+.main-text-content{
     position: relative;
-    text-shadow: 0 1px 10px #000000;
+    text-shadow: #000000 1px 0 10px;
     display: flex;
     flex-direction: column;
 }
 
-.main-title {
+.main-title{
     font-size: 80px;
     width: 650px;
-    padding: 60px 0 20px 120px;
-    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    padding: 60px 0px 20px 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.main-paragraph {
-    font-size: 20px;
-    background-color: rgba(11, 19, 32, 0.81);   
+.main-paragraph{
+    font-size: 18px;
+    background-color: #0b1320d0;   
     padding: 15px 40px 15px 120px;
     width: 600px;
     line-height: 1.5em;
     text-align: justify;
 }
 
-.book-btn {
-    margin: 20px 0 0 120px;
+.book-btn{
+    margin: 20px 0px 0px 120px;
+    background-color: #0b1320e6;
+    color: #ffffff;
     padding: 13px;
     font-weight: 700;
+    cursor: pointer;
     width: 120px;
 }
 
+.book-btn:hover{
+    background-color: #000000;
+}
 
-.social-icons {
+.social-icons{
     font-size: 25px;
     display: flex;
     flex-direction: column;
     position: fixed;
-    gap: 0.7em;
+    gap: .7em;
     left: 95%;
-    background-color: rgba(11, 19, 32, 0.9);
+    background-color: #0b1320e6;
     padding: 10px;
     margin-top: 200px;
     z-index: 2;
     cursor: pointer;
 }
 
-
-#searchDestination {
+#searchDestination{
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     width: 400px;
+    height: auto;
+    color:#0B1320;
     background-color: #ffffff;
-    color: var(--main-bg-color);
-    margin: -550px 20px 0 900px;   
+    margin-top: -550px;
+    margin-left: 900px;
+    margin-right: 20px;   
     overflow-y: scroll;
     overflow-x: hidden;
     max-height: 80vh;
 }
 
-.destination-img {
+.destination-img{
     width: 400px;
     height: auto;
     margin-bottom: 15px;
 }
 
-.destination-name {
+.destination-name{
     font-size: 20px;
     text-align: center;
     margin-bottom: 5px;
 }
 
-.destination-description {
+.destination-description{
     font-size: 16px;
     text-align: justify;
     padding: 15px;
 }
 
-.btn-visit {
-    padding: 5px;
-    margin: 5px 10px;
+.btn-visit{
+    background-color: #0b1320e6;
+    color: #ffffff;
     font-weight: 700;
-    width: 375px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 10px 10px 10px;
+    width: 365px;
 }
-

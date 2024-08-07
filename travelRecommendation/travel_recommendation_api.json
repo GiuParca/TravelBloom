@@ -52,13 +52,13 @@
     "temples": [
       {
         "id": 1,
-        "name": "Angkor Wat, Cambodia",
+        "name": "Angkor Wat temple, Cambodia",
         "imageUrl": "./countriesImgs/Angkor_Wat.jpg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
         "id": 2,
-        "name": "Taj Mahal, India",
+        "name": "Taj Mahal temple, India",
         "imageUrl": "./countriesImgs/Taj_Mahal.jpg",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }

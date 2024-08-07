@@ -1,7 +1,9 @@
 const btnSearch = document.getElementById('btnSearch');
-const btnReset = document.getElementById('btnReset');
+const btnClear = document.getElementById('btnClear');
 
 btnSearch.addEventListener('click', searchDestination)
+btnClear.addEventListener('click', clearSearchResult)
+
 
 function searchDestination(){ 
 const inputSearch = document.getElementById('destinationSearch').value.toLowerCase().trim(); 
@@ -55,5 +57,10 @@ destinations.innerHTML = "Destination not found. Please, try again.";
 }).catch (error => { 
 console.error("Error fetching data:", error); 
 destinations.innerHTML = 'There was an error fetching the data';
+})
 }
-)}
+
+function clearSearchResult(){
+    document.getElementById('destinationSearch').value = ""; 
+    document.getElementById('searchDestination').innerHTML = ""; 
+}
