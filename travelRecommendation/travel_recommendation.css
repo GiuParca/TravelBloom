@@ -120,9 +120,20 @@ ul{
     padding: 10px;
     margin-top: 200px;
     z-index: 2;
+    cursor: pointer;
 }
 
-.social-icons:hover{
-    cursor: pointer;
+#searchDestination{
+    display: flex;
+    flex-direction: column;
+    height: 80vh; 
+    overflow-y: scroll;
+    color: #0B1320;
+    
+}
+
+.destination-img{
+    width: 400px;
+
 }
 

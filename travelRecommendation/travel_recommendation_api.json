@@ -43,7 +43,7 @@
           },
           {
             "name": "São Paulo, Brazil",
-            "imageUrl": "Sao_Paulo.jpg",
+            "imageUrl": "./countriesImgs/Sao_Paulo.jpg",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
@@ -53,7 +53,7 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
-        "imageUrl": "./countriesImgs/Angkor-Wat.jpg",
+        "imageUrl": "./countriesImgs/Angkor_Wat.jpg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
@@ -67,7 +67,7 @@
       {
         "id": 1,
         "name": "Bora Bora, French Polynesia",
-        "imageUrl": "./countriesImgs/Bora-Bora.jpg",
+        "imageUrl": "./countriesImgs/Bora_Bora.jpg",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
       {
